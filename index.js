@@ -7,7 +7,7 @@ const urlLib = require('url');
 const request = require('request-promise-native');
 const cheerio = require('cheerio');
 
-const proxy = 'http://dev-proxy.oa.com:8080';
+const proxy = '';
 
 async function fetchImage(url, pageUrl, jar, writeStream) {
     let headers = {
