@@ -69,3 +69,5 @@ fetchComic('http://manhua.dmzj.com/mingrijiangdeshuishoufu').then(res => {
 }).catch(err => {
     console.error(err.message);
 })
+
+module.exports = {};

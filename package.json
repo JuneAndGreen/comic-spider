@@ -1,6 +1,6 @@
 {
-  "name": "comicSpider",
-  "version": "0.0.3",
+  "name": "comic-spider",
+  "version": "0.0.1",
   "description": "二次元漫宅专用小工具~",
   "author": "june_01",
   "main": "index.js",
@@ -15,5 +15,9 @@
   ],
   "license": "MIT",
   "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4"
+  }
 }
