@@ -1,9 +1,15 @@
 {
   "name": "comic-spider",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "二次元漫宅专用小工具~",
   "author": "june_01",
   "main": "index.js",
+  "bin": {
+    "comic-spider": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JuneAndGreen/comicSpider.git"
