@@ -57,7 +57,7 @@ comic-spider http://xxxx http://yyyy http://cccc
 拉取漫画到指定目录，并且使用代理：
 
 ```bash
-gomd http://xxxx -o ./output/ -p http://yyyy
+comic-spider http://xxxx -o ./output/ -p http://yyyy
 ```
 
 ## 协议
